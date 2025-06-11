@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="de" id="oben" class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Andres Möring">
+        <title >Mein Lebenslauf</title>
+        <link href="styles.css" rel="stylesheet"/>
+        <script defer src="main.js"></script>
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+
+    </head>
+
+    <body>
+        <!-- Header -->
+        <header  id="header">
+            <div class="hamburger-menu">
+                <button id="menu-toggle" aria-expanded="false" aria-controls="nav-menu"><span class="menuicon">☰ </span>Menü</button>
+                <nav id="nav-menu" class="menu-collapsed"> 
+                    <ul>
+                        <li><a href="#uebermich"> Über mich</a></li>
+                        <li><a href="#skills"> Skills</a></li>
+                        <li>
+                            <button class="projektmenu-toggle" aria-expanded="false"> Projekte
+                            </button>
+                            <ul class="submenu hidden">
+                                <li class="submenuitem"><a href="#" >Todoliste</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                </nav>
+            </div>
+            <!-- Begruessung-->
+            <div class="begruessung">
+                <!-- nach unten scrollen -->
+               <div class="scroll-down-container">
+                <a href="#unten" class="scroll-down-btn"><span class="menuicon">⬇</span> Nach unten</a>
+               </div>
+
+                <h1 >Herzlich Willkommen</h1>
+
+                <!-- Logo-->
+                <div class="logo">
+                    <img src="Images/logo.png" width="100" height="100" alt="Logo Zahnrad"/>
+                </div>
+
+               
+                <div class="begruessung-text">
+                    <p>Schön, dass Sie hier sind.</p>
+                </div>
+            </div>        
+            <!-- Profilbild-->
+            <div class="profil-container">
+    
+                <div class="profilbild">
+                    
+                        <img src="Images/foto.png" alt="Profilbild"/>
+                    </a>
+                </div>
+
+                <div class="profildetails">
+                    <h2 class="name">Andres Möring</h2>
+                    <h2 >Fachinformatiker <br>Anwendungsentwicklung</h2>
+                    <div class="SpracheFrameworks">
+                        <p><strong>C#</strong><span class="trenner">/</span><strong>WPF</strong> <span class="trenner">/</span><strong>.NET</strong></p>
+                    </div>
+                    <div class="todoappImage">
+                        <img src="Images/todoapp.jpg" alt="Todo App"> 
+                    </div>
+
+                </div>
+                
+            </div>
+        </header>
+
+    <!-- Content -->
+    <div id="content">
+
+        <!-- Über Mich -->
+        <section class="uebermich" id="uebermich">
+                <h3 >Über mich</h3>
+                <div class="beschreibung">
+                    <p>
+                        Ich bin Fachinformatiker für Anwendungsentwicklung mit Leidenschaft für saubere Architekturen, MVVM und UI-Design. 
+                        Ich liebe es, Projekte ganzheitlich zu entwickeln - von
+                        Datenbank bis zum Frontend.
+                        <br><br>
+                        Ich lerne derzeit, moderne und modulare Anwendungen zu entwickeln – sauber, effizient und testbar.
+                    </p>
+                </div>
+            </section>
+        
+            <!-- Skills-->
+            <section class="skills" id="skills">
+                <h3>Skills</h3>
+
+                <!-- Sprachen -->
+                <h4 class="sprachen">💬 Sprachen:</h4>
+                <div class="skill-container">
+
+                    <div class="skill">
+                        <div class="skill-label">HTML</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="20%"></div>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="skill-label">CSS</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="20%"></div>
+                        </div>
+                    </div>
+                
+                    <div class="skill">
+                        <div class="skill-label">Javascript</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="10%"></div>
+                        </div>
+                    </div>
+                
+                    <div class="skill">
+                        <div class="skill-label">Java</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="30%"></div>
+                        </div>
+                    </div>
+            
+                    <div class="skill">
+                        <div class="skill-label">Python</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="10%"></div>
+                        </div>
+                    </div>
+            
+                    <div class="skill">
+                        <div class="skill-label">C#</div>
+                        <div class="skill-bar">
+                            <div class="skill-fill" data-percent="50%"></div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <div class="absatz"></div>
+                
+                <!-- Datenbanken -->
+                <h4 class="datenbanken">🗄️ Datenbanken:</h4>
+                    <div class="skill-container">
+
+                        <div class="skill">
+                            <div class="skill-label">PostgreSql</div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percent="20%"></div>
+                            </div>
+                        </div>
+
+                         <div class="skill">
+                            <div class="skill-label">Sql</div>
+                            <div class="skill-bar">
+                                <div class="skill-fill" data-percent="30%"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                <div class="absatz"></div>
+
+            <div class="skill-kategorien">
+
+                <!-- Frameworks-->
+                <div class="skill-block">
+                    <h4>🔧 Frameworks:</h4>
+                    <ul class="skill-list">
+                        <li>.NET</li>
+                        <li>WPF</li>
+                        <li>Entity Framework</li> 
+                    </ul>
+                        
+                </div>
+                <!-- Tools -->
+                <div class="skill-block">
+
+                    <h4>🧰 Tools:</h4>
+                    <ul class="skill-list">
+                        <li>Visual Studio</li>
+                        <li>Visual Studio Code</li>
+                        <li>Git</li>
+                        <li>Software Ideas Modeler</li>
+                    </ul>
+                </div>
+                        
+                <!-- Softskills -->
+                <div class="skill-block">
+
+                    <h4 >💡 Soft Skills</h4>
+                    <ul class="skill-list">
+                        <li>Teamfähigkeit</li>
+                        <li>Lernbereitschaft</li>
+                        <li>Kritikfähig</li>
+                        <li>Neugierig</li>
+                    </ul>
+                    
+                </div>
+            </div>
+            
+        
+        </div>
+        
+    </section>
+</div>
+        <footer>
+            <div id="footer">
+                <div class="linknachoben">
+                    <a id="unten" href="#oben">Nach oben</a>
+                </div>
+                
+                <div class="linkedin">
+                    <a href="https://www.linkedin.com/in/andres-m%C3%B6ring-438280290?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BNZV%2FHkj3So2HLs%2BwFv4WPw%3D%3D" target="_blank">
+                        <img src="Images/linkedin.svg" alt="LinkedIn" width="30" height="30">
+                    </a>
+                </div> 
+            <div class="github">
+                <a target="_blank" href="https://github.com/zhenhut">
+                    <img src="Images/github.svg" alt="GitHub" width="30" height="30">
+                </a> <small>icon by </small><a target="_blank" href="https://icons8.com"><small>Icons8</small></a>
+            </div>
+            </div>
+        </footer>
+    </body>
+   
+</html>
